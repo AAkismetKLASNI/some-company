@@ -12,11 +12,18 @@ export const metadata: Metadata = {
   icons: '/logo.svg	',
   openGraph: {
     type: 'website',
-    title: 'Some company',
+    title: 'Some-Company',
     url: 'https://vercel.com/aakismetklasnis-projects',
-    siteName: 'Some company',
+    siteName: 'Some-Company',
     description: 'description of a company',
-    images: '/logo.svg',
+    images: [
+      {
+        url: '/open-graph-img.jpg',
+        width: 600,
+        height: 300,
+        alt: 'Logo of Some company',
+      },
+    ],
   },
 };
 
