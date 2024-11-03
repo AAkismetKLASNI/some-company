@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --dark: #111111;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: clamp(1.875rem, 1.594rem + 1.41vw, 3rem);
+
+  span {
+    font-size: clamp(1.875rem, 1.594rem + 1.41vw, 3rem);
+  }
+}
+
+h2 {
+  font-size: clamp(1.25rem, 1.125rem + 0.63vw, 1.75rem);
+}
+
+p,
+span,
+button {
+  font-size: clamp(0.875rem, 0.844rem + 0.16vw, 1rem);
+}
+
+input,
+textarea {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.75rem;
+}
+
+button {
+  border-radius: 0.75rem;
+}
