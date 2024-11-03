@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     title: 'Some company',
-    url: 'https://aakismetklasni.github.io/site-some-company/',
+    url: 'https://vercel.com/aakismetklasnis-projects',
     siteName: 'Some company',
     description: 'description of a company',
     images: '/logo.svg',
