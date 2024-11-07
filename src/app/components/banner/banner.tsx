@@ -5,13 +5,13 @@ import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 export default function Banner() {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 justify-between gap-4'>
+    <div className='grid grid-cols-1 md:grid-cols-[1.2fr,_1fr] justify-between gap-4'>
       <div className='space-y-section text-center flex flex-col md:text-left lg:w-4/6'>
-        <h1>Most important title on the page</h1>
+        <h1>Production Studio – From Idea to Realization</h1>
         <span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          mattis, leo et condimentum ultricies, sem urna convallis metus, vel
-          suscipit nibh lacus tincidunt ante
+          Production services ensure that every project is crafted with
+          precision and care. Let us help you tell your story in a way that
+          captivates and inspires your audience.
         </span>
       </div>
       <LiteYouTubeEmbed

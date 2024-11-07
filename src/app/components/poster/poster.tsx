@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Poster() {
   return (
     <div className='space-y-section flex flex-col justify-center items-center relative'>
-      <h1>Less important title</h1>
+      <h1>Join us</h1>
       <Button href='CONTACT' type='button' size='full'>
         Contact us
       </Button>

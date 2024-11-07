@@ -38,7 +38,7 @@ export default function Form() {
       ) : (
         <>
           <div className='flex justify-between items-center'>
-            <h2>Only CTA on the page</h2>
+            <h2>Join us</h2>
             {error && <Error>{error}</Error>}
             {loading && <Loader />}
           </div>
